@@ -17,7 +17,7 @@ function App() {
           </Route>
           <Route path='/about'>{About}</Route>
           <Route path='/contacts'>{Contacts}</Route>
-          <Route path='user/:username' exact>
+          <Route path='/user/:username' exact>
             {User}
           </Route>
         </Switch>

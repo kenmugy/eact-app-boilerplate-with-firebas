@@ -18,6 +18,9 @@ export default function Navs() {
           <li>
             <Link to='/contacts'>contacts</Link>
           </li>
+          <li>
+            <Link to='/user'>User</Link>
+          </li>
         </ul>
       </div>
     </nav>
